@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset style="width: fit-content;">
+            <legend>Login Form</legend>
+                <label for="email">E-mail</label>
+                <input type="email" id="email">
+
+                <br/>
+                <br/>
+
+                <label for="password">Password</label>
+                <input type="password" id="password">
+                
+                <br/>
+                <br/>
+
+                <input type="submit" value="Submit">
+        </fieldset>
+
+        <br/>
+
+        <label for="dob">Date of Birth : </label>
+        <input type="date" id="dob">
+        <br>
+
+        <br/>
+
+        <fieldset style="width: fit-content;">
+            <legend>Resturant</legend>
+            
+            <label for="dishes">Choose your dish: </label>
+            <select id="dishes" multiple>
+                <option value="">Select Dish</option>
+                <option value="chicken biriyani">Chiken Biriyani</option>
+                <option value="mutton biriyani">Mutton Biriyani</option>
+                <option value="chicken role">Chiken Role</option>
+                <option value="egg role">Egg Role</option>
+            </select>
+
+            <br/>
+            <br/>
+            <label for="feedback">Feedback</label><br>
+            <textarea name="text_box" id="feedback" cols="30" rows="10" placeholder="give us your valuable feedback here"></textarea>
+
+        </fieldset>
+
+        <br>
+        <br>
+        
+    </form>
+
+    <form>
+        <fieldset style="width: fit-content;">
+            <legend>
+                Enter your preferred contact method
+            </legend>
+
+            <label for="email_id">Email</label>
+            <input type="radio" id="email_id" name="contact">
+            <label for="whatsapp">Whatsapp</label>
+            <input type="radio" id="whatsapp" name="contact">
+            <label for="call">Call</label>
+            <input type="radio" id="call" name="contact"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+
+      <form>
+        <fieldset style="width: fit-content;">
+            <legend>Hobby</legend>
+            <label for="singing">Singing</label>
+            <input type="checkbox" id="singing">
+            <label for="dancing">Dancing</label>
+            <input type="checkbox" id="dancing">
+            <label for="sleeping">Sleeping</label>
+            <input type="checkbox" id="sleeping">
+            <label for="swimming">Swimming</label>
+            <input type="checkbox" id="swimming">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="reading">
+        </fieldset>
+      </form>
+</body>
+</html>
