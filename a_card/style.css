@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    bottom: 50px;
+    height: 200px;
+    width: 175px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: #ffffff;
+}
+
+.logo img{
+    border: 2px solid blue;
+    padding: 2px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 15px;
+}
+
+p{
+    margin-top: 4px;
+    text-transform: uppercase;
+    font-size: 7px;
+}
+
+.buttons button{
+    height: 20px;
+    width: 70px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.icons a{
+    text-decoration: none;
+    border-radius: 50%;
+    display: inline-flex;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    font-size: 12px;
+    /* border: 1px solid #e1e1e1; */
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#facebook{
+    border: 1px solid blue;
+    color: blue;
+}
+
+#youtube{
+    border: 1px solid #ff0000;
+    color: #ff0000;
+}
+
+#whatsapp{
+    border: 1px solid #00ff00;
+    color: #08fc00;
+}
+
+#instagram{
+    border: 1px solid rgb(207, 0, 248);
+    color: rgb(255, 0, 43);
+}
